@@ -15,7 +15,9 @@ For i=1 to n+1
       exit
    Endif
    Next
-   if fl then exit endif
+   if  fl=true then
+     exit 
+   endif
 Next
 if !fl then 
 print "-1" 
